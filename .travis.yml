@@ -18,7 +18,7 @@ deploy:
   secret_access_key: "W8Fi0/2JgYjYPf16TjrqACRbtuU4O+hnJuRsYFjt"
   region: "us-east-2"
   app: "polls"
-  env: "Polls_env"
+  env: "Polls-env"
   bucket_name: "elasticbeanstalk-us-east-2-814677984875"
   on:
     branch: main
