@@ -20,3 +20,5 @@ deploy:
   app: "polls"
   env: "Polls_env"
   bucket_name: "elasticbeanstalk-us-east-2-814677984875"
+  on:
+    branch: main
