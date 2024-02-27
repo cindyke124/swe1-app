@@ -11,3 +11,12 @@ script:
 branches:
   only:
     - main
+
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: "AKIA33LUXQZVZ6RASJ4M"
+  secret_access_key: "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"
+  region: "us-east-2"
+  app: "polls"
+  env: "Polls_env"
+  bucket_name: "elasticbeanstalk-us-east-2-814677984875"
