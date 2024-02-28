@@ -10,7 +10,7 @@ install:
 
 before_script:
   - flake8 --max-line-length=88
-  - black . --check
+  - black --check .
 
 script:
   - python manage.py test
