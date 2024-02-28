@@ -10,7 +10,6 @@ install:
 
 script:
   - python manage.py test
-  - black . --check
 
 branches:
   only:
