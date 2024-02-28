@@ -8,6 +8,10 @@ install:
   - pip install flake8
   - pip install coveralls
 
+before_script:
+  - flake8 --max-line-length=88
+  - black . --check
+
 script:
   - python manage.py test
 
@@ -23,5 +27,6 @@ deploy:
   app: "polls"
   env: "Polls-env"
   bucket_name: "elasticbeanstalk-us-east-2-814677984875"
+
   on:
     branch: main
