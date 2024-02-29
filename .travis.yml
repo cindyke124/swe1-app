@@ -29,7 +29,7 @@ deploy:
   region: "us-east-2"
   app: "polls"
   env: "Polls-env"
-#  bucket_name: "elasticbeanstalk-us-east-2-814677984875"
+  bucket_name: "elasticbeanstalk-us-east-2-814677984875"
 
   on:
     branch: main
