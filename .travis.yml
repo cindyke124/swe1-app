@@ -31,5 +31,3 @@ deploy:
   env: "Polls-env"
   bucket_name: "elasticbeanstalk-us-east-2-814677984875"
 
-  on:
-    branch: null
