@@ -17,7 +17,6 @@ script:
   - coverage xml
   - COVERALLS_REPO_TOKEN=Hsuqw6orXndIyhXF8sAwVlPSTz3YD9TRn coveralls
 
-
 branches:
   only:
     - main
